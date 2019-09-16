@@ -1,3 +1,2 @@
-# Summer-Research
-The files included here are just the Kalman Filter code and the text files necessary to run it for 2 player tracking. For the pre-processing of getting coordinates from the video, I followed this tutorial with slight modifications at the end to create coordinates from the (dx,dy). https://www.pyimagesearch.com/2015/09/14/ball-tracking-with-opencv/ 
-In the process of creating this, I tried to make it as flexible as possible, so the matrix definitions as well as delt (change in time factor) are at the beginning of functions and mu/sigma are defined as global variables. I decided to do this for ease of manipulation to try different things with the code. The error number in the plot() function can also be subject to change if the l-2 norm is preferred, since the graphical output is in Euclidean space.
+# Q-Learning Methods
+Compared two different popular Q-Learning methods (Monte Carlo and Temporal-Difference Learning) for episodic tasks involving baseball. Batter outcomes are states with associated reward of runs scored (each inning is the entire episode). The methods are compared and discussed in terms of Policy Iteration.
